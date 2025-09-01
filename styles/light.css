@@ -1,12 +1,123 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --text-color: #353430;
+  --bg-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --card-bg: #fff1f7;
+  --decor-color: #353430;
+  --title-decor-bg: #ff8dcb;
+  --title-decor-color: #353430;
+  --link-shadow: #ff8dcb;
+  --bg-image: url('../images/cover-image-light.png');
+  --button-hover-border: rgba(50, 49, 45, 0.4);
+  --text-shadow: 4px 4px 0 var(--title-decor-bg);
+  --footer-text-shadow: 2px 2px 0 var(--title-decor-bg);
+}
+
+.theme-light {
+  background-image: url('../images/cover-image-light.png');
+}
+
+.theme-light footer {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.theme-light .header__decoration {
+  display: none;
+}
+
+.theme-light .header__title {
+  text-shadow: var(--text-shadow);
+}
+
+.theme-light .footer__text {
+  text-shadow: var(--footer-text-shadow);
+}
+
+.theme-light .card__link {
+  text-shadow: 2px 2px 0 var(--link-shadow);
+}
+
+.theme-light .decorated-zone::before,
+.theme-light .decorated-zone::after {
+  border-color: var(--decor-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #353430;
+    --bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --card-bg: #fff1f7;
+    --decor-color: #353430;
+    --title-decor-bg: #ff8dcb;
+    --title-decor-color: #353430;
+    --link-shadow: #ff8dcb;
+    --bg-image: url('../images/cover-image-light.png');
+    --button-hover-border: rgba(50, 49, 45, 0.4);
+    --text-shadow: 4px 4px 0 var(--title-decor-bg);
+    --footer-text-shadow: 2px 2px 0 var(--title-decor-bg);
+  }
+
+  :root .header__decoration {
+    display: none;
+  }
+
+  :root .header__title {
+    text-shadow: var(--text-shadow);
+  }
+
+  :root .footer__text {
+    text-shadow: var(--footer-text-shadow);
+  }
+
+  :root .card__link {
+    text-shadow: 2px 2px 0 var(--link-shadow);
+  }
+
+  :root .decorated-zone::before,
+  :root .decorated-zone::after {
+    border-color: var(--decor-color);
+  }
+}
+
+@media (width >= 375px) {
+  .theme-light .footer__text {
+  text-shadow: var(--footer-text-shadow);
+  }
+}
+
+.theme-light .header__theme-menu-button {
+  color: var(--decor-color);
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border-color: var(--button-hover-border);
+}
+
+.theme-light .header__theme-menu-button:focus-visible {
+  border-block-end-color: var(--decor-color);
+}
+
+.theme-light .header__theme-menu-button_active {
+  border-color: var(--decor-color);
+}
+
+.theme-light .title-decor {
+  background-color: var(--title-decor-bg);
+  color: var(--title-decor-color);
+}
+
+.theme-light .header {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.theme-light .page {
+  background-image: var(--bg-image);
 }
