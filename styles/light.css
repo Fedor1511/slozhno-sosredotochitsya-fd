@@ -46,7 +46,7 @@
     0 0 4px #ff8dcb,
     0 0 8px #ff8dcb,
     0 0 16px #ff8dcb;
-
+}
 
 .theme-light .card__link {
   text-shadow: 2px 2px 0 var(--link-shadow);

@@ -205,12 +205,8 @@
 }
 
 .custom-link {
-  text-decoration: none; 
+  text-decoration: none;
   transition: all 0.3s ease;
-}
-
-.section__content {
-  gap: 20px;
 }
 
 .section__content-why {
@@ -227,7 +223,7 @@
 .section__content-density {
     flex: 1 1 300px;
     min-width: 315px;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 .card {
@@ -483,8 +479,8 @@
   
   .header__subtitle {
     max-height: 71px;
-    max-width: 491px; 
-    margin-right: 20px;   
+    max-width: 491px;
+    margin-right: 20px;
   }
 
   .section {
