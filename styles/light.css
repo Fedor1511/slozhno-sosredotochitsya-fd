@@ -13,10 +13,6 @@
   --footer-text-shadow: 2px 2px 0 var(--title-decor-bg);
 }
 
-.theme-light {
-  background-image: url('../images/cover-image-light.png');
-}
-
 .theme-light footer {
   background-position: center;
   background-size: cover;
@@ -35,6 +31,22 @@
 .theme-light .footer__text {
   text-shadow: var(--footer-text-shadow);
 }
+
+.theme-dark .custom-link {
+  color: #353430;
+  text-shadow: 
+    0 0 2px #ff8dcb,
+    0 0 4px #ff8dcb,
+    0 0 8px #ff8dcb;
+}
+
+.custom-link:hover {
+  color: #353430;
+  text-shadow: 
+    0 0 4px #ff8dcb,
+    0 0 8px #ff8dcb,
+    0 0 16px #ff8dcb;
+
 
 .theme-light .card__link {
   text-shadow: 2px 2px 0 var(--link-shadow);
