@@ -22,6 +22,27 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
+@media (prefers-color-scheme: dark) {
+  .theme-auto {
+    --text-color: #F1B2CE;
+    --bg-color: #000028;
+    --accent-color: #FF0070;
+    --card-bg: var(--bg-color);
+    --decor-color: #FF0070;
+    --title-decor-bg: #FF0070;
+    --title-decor-color: #000028;
+    --link-shadow: #FF0070;
+    --button-hover-border: rgba(255, 0, 112, 0.4);
+    --text-shadow: 4px 4px 0 var(--accent-color);
+    --footer-text-shadow: 2px 2px 0 var(--accent-color);
+  }
+
+  .theme-auto .header__title {
+  color: #DB00FF;
+  text-shadow: var(--text-shadow);
+  }
+}
+
 @media (width >= 1024px) {
   :root {
     --section-gap: 100px;

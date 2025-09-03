@@ -13,13 +13,6 @@
   --footer-text-shadow: 2px 2px 0 var(--title-decor-bg);
 }
 
-.theme-light footer {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 .theme-light .header__decoration {
   display: none;
 }
