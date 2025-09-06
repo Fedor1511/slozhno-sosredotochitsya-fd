@@ -48,7 +48,8 @@
 }
 
 .theme-dark .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--decor-color, #FF0070);
+  border-bottom: 1px solid var(--decor-color);
+  opacity: 1;
 }
 
 .theme-dark .header__theme-menu-button_active {

@@ -11,7 +11,7 @@
   --bg-image: url('../images/cover-image-light.png');
   --button-hover-border: rgba(50, 49, 45, 0.4);
   --text-shadow: 4px 4px 0 var(--title-decor-bg);
-  --footer-text-shadow: 2px 2px 0 #FF8DCB;
+  --footer-text-shadow: 2px 2px 0 #FF0070;
 }
 
 .theme-light {
@@ -39,11 +39,11 @@
   text-shadow: 1px 1px 0 var(--link-shadow, #FF8DCB);
 }
 
-.card__link:focus {
+.theme-light .card__link:focus {
   border: 1px solid #353430;
 }
 
-.card__link:focus-visible {
+.theme-light .card__link:focus-visible {
   outline: 1px solid #353430;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
-  border-block-end-color: var(--decor-color);
+  border-bottom: var(--decor-color);
 }
 
 .theme-light .header__theme-menu-button_active {
