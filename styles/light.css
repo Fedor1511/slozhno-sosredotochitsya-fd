@@ -90,7 +90,7 @@
     --footer-text-shadow: 2px 2px 0 var(--title-decor-bg);
   }
 
-  .theme-auto {
+  /*.theme-auto {
     background-size: cover;           
     background-position: center;      
     background-repeat: no-repeat;     
@@ -147,5 +147,5 @@
   .theme-auto .title-decor {
     background-color: var(--title-decor-bg);
     color: var(--title-decor-color);
-  }
+  }*/
 }

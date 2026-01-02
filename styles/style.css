@@ -517,14 +517,14 @@
   }
 
   .section__content-accent {
-    min-height: 1015px;
+    /*min-height: 1015px;*/
     max-width: 649px;
     width: 100%;
     max-width: none;
   }
 
   .card__title {
-    max-height: 23px;
+    /*max-height: 23px;*/
     width: 100%;
     max-width: none;
   }

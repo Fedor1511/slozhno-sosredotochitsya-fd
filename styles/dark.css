@@ -87,7 +87,7 @@
     --footer-text-shadow: 2px 2px 0 #FF0070;
   }
 
-  .theme-auto {
+  /*.theme-auto {
     --text-color: #F1B2CE;
     --text-secondary: #DB00FF;
     --bg-color: #000028;
@@ -138,5 +138,5 @@
 
   .theme-auto .card__link:focus {
     border: 1px solid #F1B2CE;
-  }
+  }*/
 }
