@@ -303,7 +303,6 @@
 
   .section__title {
     font-size: 18px;
-    min-height: 47px;
   }
 
   .card__title {
@@ -318,7 +317,6 @@
   .footer__text {
     font-size: 116px;
     width: 348px;
-    height: 96px;
     margin-right: 13px;
     margin-left: 14px;
   }
@@ -459,14 +457,12 @@
   
   .header__title {
     font-size: 157px;
-    min-height: 130px;
     margin: 273px 265px 114px 0;
     padding: 0;
   }
   
   .header__subtitle {
     max-width: 491px;
-    max-height: 71px;
     padding: 0;
     margin-right: 20px;
     margin-bottom: 134px;
@@ -517,21 +513,18 @@
   }
 
   .section__content-accent {
-    /*min-height: 1015px;*/
     max-width: 649px;
     width: 100%;
     max-width: none;
   }
 
   .card__title {
-    /*max-height: 23px;*/
     width: 100%;
     max-width: none;
   }
 
   .card-density {
     min-width: 315px;
-    min-height: 431px;
   }
 
   .card-accent {
